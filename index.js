@@ -10,8 +10,7 @@ app.use(globalMiddleware);
 
 
 function globalMiddleware(req, res, next) {
-    let n = 0;
-
+   
     if (req.method === 'GET') {
         console.count("GET Request")
     }
